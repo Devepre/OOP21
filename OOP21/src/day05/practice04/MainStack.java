@@ -1,5 +1,7 @@
 package day05.practice04;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.Stack;
 
 public class MainStack {
@@ -34,6 +36,13 @@ public class MainStack {
 		stack.remove(1);
 		System.out.println(stack);
 
+		Deque<Object> st = new ArrayDeque<>();
+		st.addFirst(32);
+		st.addFirst("Wol");		
+		System.out.println(st);
+		System.out.println(st.removeFirst());
+		System.out.println(st);
+		
 	}
 
 }
