@@ -14,7 +14,14 @@ public class MainStack {
 		
 		System.out.println(myStack.peek());
 		System.out.println(myStack);
+		
+		myStack.push(0.2);
+		myStack.push("Hello");
+		myStack.push(45);
+		System.out.println(myStack);
 
+		System.out.println(myStack.search("Hello"));
+		
 	}
 
 }
